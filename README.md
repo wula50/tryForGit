@@ -1,0 +1,2 @@
+# tryForGit
+这个例子是为pccharm中进行python编程而设置的，通过这样的方法，我可以直接在本地的pccharm中编程，然后可以直接push到github
