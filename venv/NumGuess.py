@@ -17,6 +17,6 @@ while guess!=key and tries<=6:
         print("大了")
     tries+=1
 if guess==key:
-    print("猜对了，你赢了！")
+    print("猜对了，你赢了！，你猜了"+str(tries)+"次。")
 else:
-    print("没机会了，下次再来，正确答案是"+key)
+    print("没机会了，下次再来，正确答案是"+str(key))
