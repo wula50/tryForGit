@@ -17,8 +17,8 @@ priceOfCarpet=float(raw_input("请问每平方尺地毯的价格："))
 print("地毯的总价是："+str(priceOfCarpet*area*9))
 
 #统计客户的零钱
-countOfFiveCents=float(raw_input("有多少个五分币？"))
-countOfTwoCents=float(raw_input("有多少个二分币？"))
-countOfOneCents=float(raw_input("有多少个一分币？"))
+countOfFiveCents=int(raw_input("有多少个五分币？"))
+countOfTwoCents=int(raw_input("有多少个二分币？"))
+countOfOneCents=int(raw_input("有多少个一分币？"))
 total=5*countOfFiveCents+2*countOfTwoCents+countOfOneCents
 print("总面值："+str(total)+"分")
