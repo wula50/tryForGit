@@ -3,9 +3,9 @@
 
 #3个人吃饭，分摊饭费，公共35.27美元，还想留15美分小费，每人该如何付钱？
 total=35.27
-fee=0.15
+tip=0.15
 count=3
-average=(total+fee)/count
+average=(total+tip)/count
 print("每个人应付："+str(average))
 
 #计算一个12.5m*16.7m的矩形房间的面积和周长
@@ -25,3 +25,26 @@ speed=80
 distance=200
 time=distance*1.0/speed
 print("以"+str(speed)+"km/h的速度行驶"+str(distance)+"km需要花"+str(time)+"小时")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
