@@ -14,7 +14,7 @@ percentOfTank = float(raw_input("percent full:")) * 0.01
 literPerKm = float(raw_input("km per liter:"))
 buffer = 5
 distanceToNextStation = float(raw_input("How long is it to next station?"))
-youCanGo = ((volumeOfTank * percentOfTank) - 5) * literPerKm
+youCanGo = ((volumeOfTank * percentOfTank) - buffer) * literPerKm
 print("You can go another " + str(youCanGo) + " km\n" + "The next gas station is " + str(
     distanceToNextStation) + " km away")
 if youCanGo > distanceToNextStation:
