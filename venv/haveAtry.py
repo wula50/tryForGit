@@ -7,3 +7,8 @@ print(s)
 
 #编写小程序，打印3行：包括名字，出生日期，喜欢的颜色
 print("My name is Ada Zheng.\n I was born May 24, 2000.\n My favorite color is Red.")
+
+longstring='''My name is Ada Zheng.
+I was born May 24, 2000.
+My favorite color is Red.'''
+print(longstring)

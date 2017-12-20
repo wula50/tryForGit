@@ -8,15 +8,15 @@ print("hello github")
     score=score+10
 '''
 
-#1-1
+# 1-1
 print("I love pizza!")
-print("pizza "*20)
-print("yum "*40)
+print("pizza " * 20)
+print("yum " * 40)
 print("I'm full.")
 
-name=raw_input()  #接受字符串
+name = raw_input()  # 接受字符串
 print(name)
-n=input()   #接受合法的表达式
+n = input()  # 接受合法的表达式
 print(n)
 
 '''错误
