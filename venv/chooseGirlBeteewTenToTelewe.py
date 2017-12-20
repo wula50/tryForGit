@@ -1,6 +1,9 @@
 # !/usr/bin/python
 # -*- coding: utf-8 -*-
 
+'''
+足球队寻找10到12岁之间的小女孩加入
+'''
 gender=raw_input("请输入你的性别，男生请输入‘M’，女生请输入‘F’：")
 if gender=='M':
     print("对不起，我们是女子足球队。")
