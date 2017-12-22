@@ -20,3 +20,14 @@ for i in range(seconds, 0, -1):
     time.sleep(1)
     print
 print("BLAST OFF!")
+
+'''
+for i in range(5):
+
+   time.sleep(1)
+
+   print('#',end='')  3.5的不换行的写法
+
+   print('\n')
+   
+'''
