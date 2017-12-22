@@ -20,10 +20,17 @@ print "The names are",
 for j in nameList:
     print j, " ",
 print
-newNameList=nameList[:]
+newNameList = nameList[:]
 newNameList.sort()
 print "sort nameList:",
 for k in newNameList:
-    print k," ",
+    print k, " ",
 print
-print "The third name you entered is:",nameList[2]
+print "The third name you entered is:", nameList[2]
+
+replace = int(raw_input("Replae on name. Which one? (1-5):"))
+newname = raw_input("New name:")
+nameList[replace - 1] = newname
+print "The nams are",
+for l in nameList:
+    print l, " ",
