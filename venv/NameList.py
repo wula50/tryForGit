@@ -19,3 +19,9 @@ for i in range(0, 5):
 print "The names are",
 for j in nameList:
     print j, " ",
+print 
+newNameList=nameList[:]
+newNameList.sort()
+print "sort nameList:",
+for k in newNameList:
+    print k," ",
