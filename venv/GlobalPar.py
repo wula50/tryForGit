@@ -11,16 +11,18 @@
 参数传进的是值，不是名称
 '''
 
+
 def calculateTax(price, tax_rate):
     global my_price
     my_price = 10000
-    total=price+(price*tax_rate)
+    total = price + (price * tax_rate)
 
-    print "my_price (inside function)=",my_price
+    print "my_price (inside function)=", my_price
     return total
 
-my_price=200
 
-totalPrice=calculateTax(my_price,0.06)
-print "print=",my_price,"Total price=",totalPrice
-print "my_price (outside function)=",my_price
+my_price = 200
+
+totalPrice = calculateTax(my_price, 0.06)
+print "print=", my_price, "Total price=", totalPrice
+print "my_price (outside function)=", my_price
