@@ -13,7 +13,7 @@ length = 16.7
 width = 12.5
 perimeter = 2 * (length + width)
 area = length * width
-print("长方形的周长是：" + str(perimeter) + "长方形的面积是：" + str(area))
+print("长方形的周长是：" + str(perimeter) + "\n长方形的面积是：" + str(area))
 
 # 把温度从华氏度转换成摄氏度。转换公式C=5/9*(F-32)
 f = input("请输入华氏度：")
