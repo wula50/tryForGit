@@ -3,7 +3,9 @@
 '''
 画一个绿色的圆环
 
-画100个长方形
+画50个长方形
+
+加上延迟，看到画出的效果
 '''
 import pygame, sys, random
 
@@ -19,7 +21,8 @@ for i in range(50):
     linewide = random.randint(0, 10)
     colorname = random.choice(pygame.color.THECOLORS.keys())
     pygame.draw.rect(screen, pygame.color.THECOLORS[colorname], [top, length, wide, length], 2)
-pygame.display.flip()
+    pygame.display.flip()
+    pygame.time.delay(30)
 while True:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
