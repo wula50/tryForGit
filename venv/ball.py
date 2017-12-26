@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 '''
-显示一个球
+显示2个球
 '''
 import pygame, sys
 
@@ -11,6 +11,9 @@ screen = pygame.display.set_mode([640, 480])
 screen.fill([255, 255, 255])
 my_ball = pygame.image.load("ball.png")
 screen.blit(my_ball, [50, 50])
+pygame.display.flip()
+pygame.time.delay(2000)
+screen.blit(my_ball, [150, 50])
 pygame.display.flip()
 while True:
     for event in pygame.event.get():
